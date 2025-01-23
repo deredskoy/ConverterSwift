@@ -1,7 +1,32 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
       "filename" : "05249ebb45643d3bc6f5a59fb1ae45b6_H7GRqr39n2_1024x1024x32.png",
+=======
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+>>>>>>> 54aec688d2d6423b171692a934ca65c101641f85
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
