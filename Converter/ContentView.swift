@@ -16,7 +16,11 @@ struct ContentView: View {
 			
 			VStack {
 				// Main logo
-				
+				Image(.mainicon)
+					.resizable()
+					.scaledToFit()
+					.frame(height: 200)
+					.cornerRadius(20)
 				// Currency exchange text
 				
 				// Conversion section
