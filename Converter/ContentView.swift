@@ -38,11 +38,11 @@ struct ContentView: View {
 							Image(.bueno)
 								.resizable()
 								.scaledToFit()
-								.frame(width: 72, height: 72)
+								.frame(width: 48, height: 48)
 								.cornerRadius(16)
 							
 							// Currency text
-							Text("Kinder Bueno")
+							Text("Kіндер Буено")
 								.font(.system(size: 16,
 											  weight: .medium,
 											  design: .default))
@@ -54,22 +54,44 @@ struct ContentView: View {
 					}
 					
 					// Equal sign
+					Image(systemName: "equal")
+						.font(.headline)
+						.foregroundStyle(.white)
+						.symbolEffect(.pulse)
 					
 					// Right conversion section
 					VStack {
 						// Currency
 						HStack {
 							// Currency text
+							Text("Наша Ряба")
+								.font(.system(size: 16,
+											  weight: .medium,
+											  design: .default))
+								.foregroundStyle(.white)
 							
 							// Currency image
+							Image(.fillet)
+								.resizable()
+								.scaledToFit()
+								.frame(width: 48, height: 48)
+								.cornerRadius(12)
 						}
 						
 						// Text field
+						Text("Text field")
 					}
 					
 				}
 				
+				Spacer()
+				
 				// Info button
+				
+				
+//				Image(systemName: "info.circle.fill")
+//					.font(.headline)
+//					.foregroundStyle(.white)
 			}
 		}
     }
