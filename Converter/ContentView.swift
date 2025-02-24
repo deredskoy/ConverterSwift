@@ -20,7 +20,7 @@ struct ContentView: View {
 
             VStack {
                 // Main logo
-                Image(.exchange)
+                Image(.exchangeRemovebgPreview)
                     .resizable()
                     .scaledToFit()
                     .frame(height: 160)
